@@ -1,6 +1,7 @@
 # SakuraOS (v6.1)
 
-SakuraOS is an original, lightweight CUI (Command-Line Interface) operating system designed to run on the ESP32 microcontroller board. It allows users to execute operations by entering text commands via the PC's serial monitor or terminals like Tera Term, utilizing an SD card for local storage.
+* SakuraOS is an original, lightweight CUI (Command-Line Interface) operating system designed to run on the ESP32 microcontroller board. It allows users to execute operations by entering text commands via the PC's serial monitor or terminals like Tera Term, utilizing an SD card for local storage.
+* **Important Note**: Please be aware that the system user interface (UI) and display text are only available in Japanese. We sincerely apologize for any inconvenience this may cause.
 
 ---
 
