@@ -4,7 +4,7 @@ SakuraOS is an original, lightweight CUI (Command-Line Interface) operating syst
 
 ---
 
-## 🛠 Hardware & Environment
+## Hardware & Environment
 
 ### Hardware Component Requirements
 * **Microcontroller**: FREENOVE ESP32 WROOM Development Board (with ESP32-WROOM-32E)
@@ -16,7 +16,7 @@ SakuraOS is an original, lightweight CUI (Command-Line Interface) operating syst
 * **Buzzer**: Piezoelectric buzzer (capable of 5V PWM frequency control)
 * **Touch Sensor**: A simple bare wire connected to Pin 4 (triggered by direct skin contact)
 
-### 📚 Libraries Used
+### Libraries Used
 
 | Header File in Code | Official Name | Provider / Author |
 | :--- | :--- | :--- |
@@ -35,9 +35,9 @@ SakuraOS is an original, lightweight CUI (Command-Line Interface) operating syst
 
 ---
 
-## 📌 Pin Connection Map
+## Pin Connection Map
 
-> ⚠️ **Important**: Ensure all connected components share a Common GND.
+> **Important**: Ensure all connected components share a Common GND.
 
 | Hardware Component | ESP32 Pin Number | Notes / Connection Instructions |
 | :--- | :---: | :--- |
@@ -58,7 +58,7 @@ SakuraOS is an original, lightweight CUI (Command-Line Interface) operating syst
 
 ---
 
-## 💻 Core Command List
+## Core Command List
 
 After the OS boots up, you can control it by sending the following text commands through your serial terminal. Enter `help` to display the full interactive command menu on your screen.
 
@@ -90,7 +90,7 @@ After the OS boots up, you can control it by sending the following text commands
 
 ---
 
-## 🎵 WAV Audio Export Configuration
+## WAV Audio Export Configuration
 To maintain seamless track playback with the I2S audio chip, render your sound files via **Audacity** or similar programs using these strict attributes:
 * **File Type**: WAV (Microsoft)
 * **Encoding**: Signed 16-bit PCM
@@ -100,14 +100,17 @@ To maintain seamless track playback with the I2S audio chip, render your sound f
 
 ---
 
-## 💾 Generated System Files
+## Generated System Files
 SakuraOS deploys two unique file formats on the SD card (interchangeable as regular text documents on PCs):
 1. **`.slf` (Sakura Log File)** : Automated rolling system logging that registers executed inputs with timestamps.
 2. **`.ssf` (Sakura Setting File)** : Stores operational parameters including volume preferences, touch thresholds, and passwords (XOR-encrypted).
 
 ---
 
-## 🔑 Default Factory Profile
+## Notice
+This is a collaborative project where I came up with the original ideas and developed the system in partnership with AI.
+
+## Default Factory Profile
 * **Default Security Password**: `SakuraOS`
 * **Default Audio Level**: `70`
 * **Developer**: EITAKU
