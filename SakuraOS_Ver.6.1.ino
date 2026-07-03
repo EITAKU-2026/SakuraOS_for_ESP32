@@ -67,7 +67,7 @@ bool LogEnabled = true; //ログの記録ON(true)・OFF(false)フラグ
 
 const char* sysFolder = "/SakuraOS_system";//設定情報保存ファイル入りフォルダの関数
 const char* sysSettingFile = "/SakuraOS_system/SakuraOS_system_setting.ssf"; //設定情報保存ファイル（Sakura Setting File）の関数
-const char* XOR_KEY = "ossaki20rora26kuhia";// XOR暗号化用共通鍵
+const char* XOR_KEY = "your_sakura_os_xor_key_here";// XOR暗号化用共通鍵
 
 RTC_DS1307 rtc;
 char filename[128];
